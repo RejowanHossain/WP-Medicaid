@@ -1,0 +1,204 @@
+/*
+Theme Name: MedicAid
+Theme URI: 
+Author: IIdeaInformatics
+Author URI: 
+Description: An online doctor appointment theme.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: 
+Text Domain: medicaid
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.service-box.service-page-two-padding.post-106 {
+    border-right: none;
+}
+
+.home.blog.logged-in {
+    padding: 0;
+}
+
+.form-respond form {
+    margin-top: 20px;
+}
+
+.form-respond form textarea {
+    width: 100%;
+    padding: 15px;
+    background: #F5F8FF;
+    border: none;
+    border-radius: 4px;
+    height: auto;
+}
+
+.form-submit {
+    margin-top: 30px;
+}
+
+.form-respond form .form-submit input {
+    padding: 0px;
+    color: #fff;
+    background: #2B8FE5;
+    padding: 18px 36px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s linear all;
+    position: relative;
+    z-index: 99999;
+    display: inline-block;
+}
+
+.comment-form-author,
+.comment-form-email {
+    margin-bottom: 20px;
+}
+
+#comments {
+    display: none;
+}
+
+.comment-metadata a {
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comment-author img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.comment-author b {
+    color: #1A3D7D;
+    font-size: 20px;
+}
+
+ol.commentlist li {
+    padding-left: 16%;
+    position: relative;
+}
+
+.says {
+    display: none;
+}
+
+.url {
+    display: none;
+}
+
+.comment-body {
+    margin-bottom: 20px;
+}
+
+.comment.byuser {
+    margin-left: 45px;
+}
+
+.widget form input.search-field {
+    width: 170%;
+}
+
+.widget form input.search-submit {
+    display: none;
+}
+
+.blog-content h5 {
+    color: #1A3D7D;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.widget h4 {
+    text-align: left!important;
+    margin-bottom: 20px;
+}
+
+.single-footer ul li {
+    margin-bottom: 15px;
+}
+
+.single-footer ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.single-footer ul li a {
+    color: #1A3D7D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+li.cat-item {
+    margin-top: 15px;
+}
+
+li.cat-item a {
+    color: #848E9F;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    position: relative;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    transition: .3s linear all;
+}
+
+.tagcloud a {
+    background: #fff;
+    padding: 10px 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 9px;
+    margin-right: 5px;
+    transition: .3s linear all;
+    margin: 0 5px 10px 0;
+    display: block;
+    color: #212529;
+    font-size: 16px!important;
+    display: inline-block;
+}
+
+.footer-form form button {
+    position: absolute;
+    top: 69%!important;
+}
+
+.profile {
+    margin-left: 30px;
+}
+
+.blog.logged-in.admin-bar.customize-support {
+    padding: 0;
+}
+
+#about.mt0 {
+    margin-top: 0;
+}
+
+.nav-links {
+    padding: 12px 30px;
+}
+
+.page-numbers {
+    background: #2B8FE5;
+    padding: 12px 21px;
+    font-size: 20px;
+}
+
+.page-numbers.current {
+    background: #1A3D7D;
+    color: #fff;
+}

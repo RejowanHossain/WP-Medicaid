@@ -1,0 +1,458 @@
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* hero */
+    .hero-text h1 {
+        font-size: 48px;
+        margin-bottom: 18px;
+    }
+    /* about */
+    .right-about {
+        padding: 60px 38px;
+    }
+    /* counter */
+    .single-counter {
+        flex-direction: column;
+    }
+    .counter-icon {
+        margin-right: 0px;
+    }
+    .counter-info {
+        text-align: center;
+    }
+    /* .main-nav nav ul li {
+        margin-right: 20px;
+    }
+    .hero-text h1 {
+        font-size: 46px;
+    }
+    .abt-img {
+        display: none;
+    }
+    .section-title h1 {
+        font-size: 45px;
+    }
+    .port h1 {
+        font-size: 38px;
+    }
+    .group-btn button {
+        padding: 19px 19px;
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .abt-title h1 {
+        font-size: 45px;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+    }
+    .footer-form form button {
+        top: 78%;
+    } */
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* topbar */
+    .top-navbar {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    /* main-menu */
+    .mobile-mt {
+        margin-top: 13px;
+    }
+    .main-menu-area {
+        padding: 10px 0px;
+    }
+    .logo h5 {
+        font-size: 28px;
+    }
+    .mean-container {
+        width: 100%;
+    }
+    /* hero */
+    .hero-area:hover .slick-next {
+        left: 1%;
+    }
+    .hero-area:hover .slick-prev {
+        right: 1%;
+    }
+    .hero-utility {
+        padding: 150px 65px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 41px;
+        padding-right: 25%;
+    }
+    .hero-caption p,
+    .two p {
+        padding-right: 27%;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    /* appointment */
+    .quote-and-presentation {
+        margin-top: -28%;
+    }
+    /* about */
+    .md-top-space {
+        margin-top: 60px;
+    }
+    #about {
+        margin-bottom: 0px;
+    }
+    /* service */
+    .service-box {
+        border-right: none;
+        margin: 20px 0 20px;
+    }
+    .service-page-two-padding {
+        padding-bottom: 19px;
+        margin-top: 0;
+    }
+    /* counter */
+    .responsive-margin-bottom {
+        margin-bottom: 20px;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+    }
+    /* appointment page */
+    .banner-search h2 {
+        font-size: 55px;
+    }
+    .booking-summary {
+        margin-top: 25px;
+    }
+}
+
+
+/* small mobile */
+
+@media (max-width: 767px) {
+    /* topbar */
+    .top-navbar {
+        display: none;
+    }
+    /* main-menu */
+    .search {
+        display: none;
+    }
+    .mobile-mt {
+        margin-top: 13px;
+    }
+    .mean-container {
+        width: 100%;
+    }
+    /* hero */
+    .hero-area:hover .slick-next {
+        opacity: 0;
+    }
+    .hero-area:hover .slick-prev {
+        opacity: 0;
+    }
+    .hero-utility {
+        padding: 90px 25px;
+    }
+    .logo h5 {
+        font-size: 28px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 30px;
+        padding-right: 2%;
+    }
+    .hero-text h5 {
+        font-size: 15px;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 670px;
+    }
+    .section-title h1 {
+        font-size: 32px;
+    }
+    /* appointment */
+    .quote-and-presentation {
+        margin-top: -82%;
+    }
+    .quote-box {
+        padding: 50px 20px;
+    }
+    /* about */
+    #about {
+        margin-bottom: 0px;
+    }
+    .abt-img::after {
+        right: 0;
+        bottom: 0;
+    }
+    .right-about {
+        padding: 60px 10px;
+    }
+    /* service */
+    #service {
+        padding: 60px 0;
+    }
+    .row-bg {
+        margin-top: 25px;
+    }
+    .service-box {
+        border-right: none;
+        margin: 20px 0 20px;
+    }
+    /* schedule */
+    .right-schedule {
+        margin-top: 0px;
+        justify-content: start;
+    }
+    .colorful-tab-content ul li {
+        width: 50%;
+    }
+    /* counter */
+    .counter {
+        margin: 0px;
+    }
+    .responsive-margin-bottom {
+        margin-bottom: 20px;
+    }
+    .group-btn {
+        margin-top: 30px;
+    }
+    .group-btn button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .portfolio-content {
+        top: 55%;
+    }
+    .service-area {
+        padding: 0;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .team-avatar img {
+        width: 100%;
+    }
+    .footer-top {
+        padding: 45px 0;
+    }
+    .footer-title h3 {
+        color: #fff;
+        font-size: 18px;
+    }
+    .footer-social {
+        text-align: left;
+        margin-top: 20px;
+    }
+    /* appointment page */
+    .single-appointment {
+        padding: 100px 0;
+    }
+    .booking-summary {
+        margin-top: 25px;
+    }
+    /* appointment page */
+    .banner-search h2 {
+        font-size: 30px;
+    }
+    /* login page */
+    .right-side {
+        padding: 50px 20px;
+    }
+    .small-none {
+        display: none;
+    }
+    /* profile page */
+    .doctor-profile-info {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .small-none {
+        display: none;
+    }
+    .responsive-margin-bottom {
+        margin-bottom: 20px;
+    }
+    .responsive-thumb {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mt-20 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1019px) {
+    .list-btn.delete {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 563px) {
+    .curriculum-vitae li .sub-details {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .colorful-tab-content ul li {
+        padding: 20px 5px 0 5px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+    .colorful-tab-content ul li {
+        padding: 20px 5px 0 5px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1299px) {
+    .location-map iframe {
+        height: 100%;
+        width: 226px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+    .location-map iframe {
+        width: 362px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .featured-doctors {
+        flex-direction: column;
+    }
+    .featured-body {
+        width: 100%;
+    }
+    .location-map iframe {
+        width: 100%;
+    }
+    .calendar-container {
+        width: 100%;
+    }
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    /* topbar */
+    .top-navbar {
+        display: none;
+    }
+    .mobile-mt {
+        margin-top: 13px;
+    }
+    .search {
+        display: none;
+    }
+    .mean-container {
+        width: 100%;
+    }
+    .logo h5 {
+        font-size: 28px;
+    }
+    .hero-utility {
+        padding: 150px 55px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 41px;
+        padding-right: 25%;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 40px;
+        padding-right: 2%;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 570px;
+    }
+    /* appointment */
+    .quote-and-presentation {
+        margin-top: -33%;
+    }
+    /* about */
+    #about {
+        margin-bottom: 0px;
+    }
+    /* counter */
+    .responsive-margin-bottom {
+        margin-bottom: 20px;
+    }
+    .md-top-space {
+        margin-top: 50px;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .right-about {
+        padding: 60px 0;
+    }
+    /* service */
+    .service-box {
+        border-right: none;
+        margin: 20px 0 20px;
+    }
+    /* schedule */
+    .schedule {
+        padding: 60px 0 60px;
+    }
+    .right-schedule {
+        margin-top: 30px;
+        justify-content: start;
+    }
+    .colorful-tab-content ul li {
+        width: 33.3%;
+    }
+    /* counter */
+    .counter {
+        margin: 0px;
+    }
+    .portfolio-content {
+        left: 11%;
+    }
+    .cta-area {
+        padding: 89px 54px;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .team-avatar img {
+        width: 85%;
+    }
+    .abt-title h1 {
+        font-size: 29px;
+    }
+    .end {
+        justify-content: start;
+    }
+    /* appointment page */
+    .banner-search h2 {
+        font-size: 40px;
+    }
+}

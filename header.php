@@ -72,8 +72,6 @@
                             <h5><span>Medic</span>Aid<span>.</span> </h5>
                         </a>
 
-
-                        ?>
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-8 col-md-8 d-flex align-items-center justify-content-end">

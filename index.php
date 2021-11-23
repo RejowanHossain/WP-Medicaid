@@ -30,8 +30,14 @@ get_header();
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12">
                 <div class="section-title mb-0">
-                    <h5>Our Blog</h5>
-                    <h2>Lates News & Articles</h2>
+                    <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'blog_sec_title' ] ){
+                    ?>
+                    <h5><?php echo $config[ 'blog_sec_subtitle' ]?></h5>
+                    <h2><?php echo $config[ 'blog_sec_title' ]?></h2>
+                    <?php } ?>
                 </div>
             </div>
         </div>

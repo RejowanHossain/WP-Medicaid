@@ -49,12 +49,25 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="footer-copyright">
-                        <p class="white">© 2021 MedicAid Limited</p>
+                        <?php 
+                            $config = get_option( 'medicaid_options' );
+
+                            if( $config[ 'footer_text' ] ){
+                        ?>
+                        <p class="white"><?php echo $config[ 'footer_text' ]?></p>
+                        <?php }?>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 end">
                     <div class="footer-right ">
                         <ul>
+
+                            <?php 
+                                if( is_active_sidebar( 'footerBottomRight' ) ){
+                                    dynamic_sidebar( 'footerBottomRight' );
+                                }
+                            ?>
+
                             <li>
                                 <a href="#">terms and condition</a>
                             </li>

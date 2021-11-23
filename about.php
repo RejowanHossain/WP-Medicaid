@@ -14,65 +14,47 @@ get_header();
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-5 col-lg-5 col-md-12">
+                <?php 
+                    $config = get_option( 'medicaid_options' );
+
+                    if( $config[ 'abt_content_image' ] ){
+                ?>
                 <div class="abt-img">
-                    <img src="img/about-img.jpg" alt="doctor">
+                    <img src="<?php echo $config[ 'abt_content_image' ] ?>" alt="doctor">
                 </div>
+                <?php }?>
             </div>
             <div class="col-xl-7 col-lg-7 col-md-12 md-top-space">
                 <div class="right-about">
+                    <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'abt_sec_title' ] ){
+                    ?>
                     <div class="abt-title">
-                        <h5>About Medicaid</h5>
-                        <h2>Whatever Your Health Needs We Are Here to Help</h2>
+                        <h5><?php echo $config[ 'abt_sec_subtitle' ]?></h5>
+                        <h2><?php echo $config[ 'abt_sec_title' ]?></h2>
                     </div>
                     <div class="abt-content">
-                        <p>MedDoctors Are A Medical And Health Department Provider Institutions. Suitable For
-                            Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care
-                            Field.</p>
+                        <p><?php echo $config[ 'abt_sec_description' ]?></p>
 
                         <div class="abt-list">
                             <ul>
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>Cras sit amet libero congu placerat dui ullamcorper lorem.</span>
-                                </li>
+                                <?php
+                                    $about_lists = $config['about_list'];
 
+                                    foreach( $about_lists as $list ){
+                                ?>
                                 <li>
                                     <i class="fas fa-check"></i>
-                                    <span>Donec nec mauris mattis, ullamcorper erat dignissim dui.</span>
+                                    <span><?php echo esc_attr( $list['list-text'] )?></span>
                                 </li>
+                                <?php }?>
 
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>Integer vel ipsum et felis scelerisque tempus.</span>
-                                </li>
-
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>We are committed to providing healthcare service.</span>
-                                </li>
-
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>Really know the true needs and expectations of patients.</span>
-                                </li>
-
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>Donec nec mauris mattis, ullamcorper erat dignissim dui.</span>
-                                </li>
-
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>Integer vel ipsum et felis scelerisque tempus.</span>
-                                </li>
-
-                                <li>
-                                    <i class="fas fa-check"></i>
-                                    <span>We are committed to providing healthcare service.</span>
-                                </li>
                             </ul>
                         </div>
                     </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -84,19 +66,27 @@ get_header();
 <div class="counter">
     <div class="container">
         <div class="row">
+            <?php
+                $counter_items = $config['counter_lists'];
+
+                foreach( $counter_items as $item ){
+            ?>
             <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
                 <div class="single-counter">
                     <div class="counter-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="<?php echo esc_attr( $item['counter_icon'] )?>"></i>
                     </div>
                     <div class="counter-info">
-                        <h5>98+</h5>
-                        <span> Expert Doctors</span>
+                        <h5><?php echo esc_html( $item['counter_number'] )?></h5>
+                        <span> <?php echo esc_html( $item['counter_title'] )?></span>
                     </div>
+
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
+            <?php } ?>
+
+            <!-- <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
                 <div class="single-counter">
                     <div class="counter-icon">
                         <i class="fas fa-stethoscope"></i>
@@ -130,7 +120,7 @@ get_header();
                         <span>Satisfaction</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
@@ -142,8 +132,14 @@ get_header();
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12">
                 <div class="section-title mb-0">
-                    <h5>Meet the professionals</h5>
-                    <h2>Group Of Experienced Doctors</h2>
+                    <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'team_sec_title' ] ){
+                    ?>
+                    <h5><?php echo $config[ 'team_sec_subtitle' ]?></h5>
+                    <h2><?php echo $config[ 'team_sec_title' ]?></h2>
+                    <?php }?>
                 </div>
             </div>
         </div>
@@ -214,8 +210,14 @@ get_header();
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12">
                 <div class="section-title mb-0">
-                    <h5>Testimonials</h5>
-                    <h2>What Clients Say About Us</h2>
+                    <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'testimonial_sec_title' ] ){
+                    ?>
+                    <h5><?php echo $config[ 'testimonial_sec_subtitle' ]?></h5>
+                    <h2><?php echo $config[ 'testimonial_sec_title' ]?></h2>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -266,8 +268,14 @@ get_header();
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12">
                 <div class="section-title mb-0">
-                    <h5>Our Blog</h5>
-                    <h2>Lates News & Articles</h2>
+                    <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'blog_sec_title' ] ){
+                    ?>
+                    <h5><?php echo $config[ 'blog_sec_subtitle' ]?></h5>
+                    <h2><?php echo $config[ 'blog_sec_title' ]?></h2>
+                    <?php } ?>
                 </div>
             </div>
         </div>

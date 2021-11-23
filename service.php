@@ -15,8 +15,14 @@
          <div class="row ">
              <div class="col-xl-4 col-lg-4 col-md-6">
                  <div class="section-title mb-0">
-                     <h5>Choose a schedule</h5>
-                     <h2>Our Business Hours<span>.</span></h2>
+                     <?php 
+                        $config = get_option( 'medicaid_options' );
+
+                        if( $config[ 'schedule_sec_title' ] ){
+                    ?>
+                     <h5><?php echo $config[ 'schedule_sec_subtitle' ]?></h5>
+                     <h2><?php echo $config[ 'schedule_sec_title' ]?></h2>
+                     <?php }?>
                  </div>
              </div>
              <div class="col-xl-8 col-lg-8 col-md-6 right-schedule">
@@ -499,15 +505,19 @@
      <div class="container">
          <div class="row ">
              <div class="col-xl-6 col-lg-6">
+                 <?php 
+                    $config = get_option( 'medicaid_options' );
+
+                    if( $config[ 'service_sec_title' ] ){
+                ?>
                  <div class="abt-title service-title">
-                     <h5>What we do</h5>
-                     <h2>True Healthcare For Your Family</h2>
+                     <h5><?php echo $config[ 'service_sec_subtitle' ]?></h5>
+                     <h2><?php echo $config[ 'service_sec_title' ]?></h2>
                  </div>
                  <div class="abt-content service-heading">
-                     <p>MedDoctors Are A Medical And Health Department Provider Institutions. Suitable For
-                         Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care
-                         Field.</p>
+                     <p><?php echo $config[ 'service_sec_description' ]?></p>
                  </div>
+                 <?php }?>
              </div>
          </div>
 

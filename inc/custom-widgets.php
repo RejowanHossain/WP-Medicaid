@@ -129,6 +129,18 @@ function medicaid_widgets(){
         'after_title' => '</h3>'
     ));
 
+    // Footer Bottom right
+    register_sidebar(array(
+        'name' => __('Footer Bottom Right','medicaid'),
+        'id' => 'footerBottomRight',
+        'description' => __(' Widget for Showing footer bottom right info', 'medicaid'),
+        'before_widget' => '<div class="footer-box">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+
+
 
 
 }

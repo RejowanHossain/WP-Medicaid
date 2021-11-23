@@ -202,3 +202,20 @@ li.cat-item a {
     background: #1A3D7D;
     color: #fff;
 }
+
+#menu-footer-menu .menu-item {
+    margin-top: 15px;
+}
+
+.footer-box h3 {
+    color: #2B8FE5;
+    font-size: 18px;
+}
+
+.footer-box ul li.page_item {
+    margin-top: 15px;
+}
+
+.footer-right ul {
+    margin-bottom: 0;
+}

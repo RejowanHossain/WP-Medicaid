@@ -154,21 +154,30 @@ if( class_exists( 'CSF' ) ) {
 
   ) );
 
-  // about left content
+  // about right content
   CSF::createSection( $prefix, array(
     'parent' => 'about_options',
-    'title'  => __('About left content' , 'medicaid'),
+    'title'  => __('About Right content' , 'medicaid'),
     'icon'   => 'fas fa-arrow-right',
     'fields' => array(
       array(
-        'id'      => 'abt_content_title',
-        'title'   => __( 'Content Title', 'medicaid' ),
-        'type'    => 'text',
+        'id'      => 'about_list',
+        'title'   => 'About List',
+        'type'    => 'group',
+        'button_title' => 'Add New List',
+        'fields'  => array(
+          array(
+            'id'    => 'list-text',
+            'type'  => 'text',
+            'title' => __('List Text', 'medicaid'),
+          ),
+        ),
       ),
+
       array(
-        'id'      => 'abt_content_desc',
-        'title'   => __( 'Content Description', 'medicaid' ),
-        'type'    => 'textarea',
+        'id'      => 'abt_content_btn_text',
+        'title'   => __( 'Content Button Text', 'medicaid' ),
+        'type'    => 'text',
       ),
       array(
         'id'      => 'abt_content_btn',
@@ -180,35 +189,22 @@ if( class_exists( 'CSF' ) ) {
 
   ) );
 
-  // about right content
+  // about left content
   CSF::createSection( $prefix, array(
     'parent' => 'about_options',
-    'title'  => __('About Right content' , 'medicaid'),
+    'title'  => __('About left content' , 'medicaid'),
     'icon'   => 'fas fa-arrow-right',
     'fields' => array(
-      array(
-        'id'      => 'abt_right_features',
-        'title'   => __( 'Content Title', 'medicaid' ),
-        'type'    => 'group',
-        'button_title' => __( 'Add New Feature', 'medicaid' ),
-        'fields'  => array( 
-          array(
-            'id'      => 'features_title',
-            'title'   => __('About Features Title', 'medicaid'),
-            'type'    => 'text',
-          ),
-          array(
-            'id'      => 'features_icon',
-            'title'   => __('About Features Icon', 'medicaid'),
-            'type'    => 'icon',
-          ),
-          array(
-            'id'      => 'features_desc',
-            'title'   => __('About Description Title', 'medicaid'),
-            'type'    => 'textarea',
-          ),
-        ),
+   
+       array(
+        'id'      => 'abt_content_image',
+        'title'   => __( 'About Image', 'medicaid' ),
+        'type'    => 'upload',    
+        'button_title' => 'Add Image',
+        'remove_title' => 'Remove Image'
       ),
+    
+     
       
     ),
 
@@ -310,103 +306,28 @@ if( class_exists( 'CSF' ) ) {
 
   ) );
 
-
-
-  // Create team title
+  // Create Schedule title
   CSF::createSection( $prefix, array(
-    'id'     => 'team_options',
-    'title'  => __('Team Options', 'medicaid'),
+    'id'     => 'schedule_options',
+    'title'  => __('Schedule Options', 'medicaid'),
     'icon'   => 'fas fa-address-card',
   ) );
 
-    // team section title
+   // schedule section title
   CSF::createSection( $prefix, array(
-    'parent' => 'team_options',
-    'title'  => __('Team Section Title' , 'medicaid'),
+    'parent' => 'schedule_options',
+    'title'  => __('Schedule Section Title' , 'medicaid'),
     'icon'   => 'fas fa-arrow-right',
     'fields' => array(
       array(
-        'id'      => 'team_sec_subtitle',
+        'id'      => 'schedule_sec_subtitle',
         'title'   => __( 'Subtitle', 'medicaid' ),
         'type'    => 'text',
       ),
       array(
-        'id'      => 'team_sec_title',
+        'id'      => 'schedule_sec_title',
         'title'   => __( 'Title', 'medicaid' ),
         'type'    => 'text',
-      ),
-      array(
-        'id'      => 'team_sec_description',
-        'title'   => __( 'Description', 'medicaid' ),
-        'type'    => 'textarea',
-      ),
-      
-    ),
-
-  ) );
-
-
-    // Create testimonial title
-  CSF::createSection( $prefix, array(
-    'id'     => 'testimonial_options',
-    'title'  => __('Testimonial Options', 'medicaid'),
-    'icon'   => 'fas fa-address-card',
-  ) );
-
-    // team testimonial title
-  CSF::createSection( $prefix, array(
-    'parent' => 'testimonial_options',
-    'title'  => __('Testimonial Section Title' , 'medicaid'),
-    'icon'   => 'fas fa-arrow-right',
-    'fields' => array(
-      array(
-        'id'      => 'testimonial_sec_subtitle',
-        'title'   => __( 'Subtitle', 'medicaid' ),
-        'type'    => 'text',
-      ),
-      array(
-        'id'      => 'testimonial_sec_title',
-        'title'   => __( 'Title', 'medicaid' ),
-        'type'    => 'text',
-      ),
-      array(
-        'id'      => 'testimonial_sec_description',
-        'title'   => __( 'Description', 'medicaid' ),
-        'type'    => 'textarea',
-      ),
-      
-    ),
-
-  ) );
-
-
-  // Create news title
-  CSF::createSection( $prefix, array(
-    'id'     => 'news_options',
-    'title'  => __('News Options', 'medicaid'),
-    'icon'   => 'fas fa-address-card',
-  ) );
-
-    // team news title
-  CSF::createSection( $prefix, array(
-    'parent' => 'news_options',
-    'title'  => __('News Section Title' , 'medicaid'),
-    'icon'   => 'fas fa-arrow-right',
-    'fields' => array(
-      array(
-        'id'      => 'news_sec_subtitle',
-        'title'   => __( 'Subtitle', 'medicaid' ),
-        'type'    => 'text',
-      ),
-      array(
-        'id'      => 'news_sec_title',
-        'title'   => __( 'Title', 'medicaid' ),
-        'type'    => 'text',
-      ),
-      array(
-        'id'      => 'news_sec_description',
-        'title'   => __( 'Description', 'medicaid' ),
-        'type'    => 'textarea',
       ),
       
     ),
@@ -450,50 +371,140 @@ if( class_exists( 'CSF' ) ) {
   ) );
 
 
-  
-  // CTA options
+
+  // Create team title
   CSF::createSection( $prefix, array(
-    'id' => 'cta_options',
-    'title'  => __('CTA Options' , 'medicaid'),
+    'id'     => 'team_options',
+    'title'  => __('Team Options', 'medicaid'),
     'icon'   => 'fas fa-address-card',
+  ) );
+
+    // team section title
+  CSF::createSection( $prefix, array(
+    'parent' => 'team_options',
+    'title'  => __('Team Section Title' , 'medicaid'),
+    'icon'   => 'fas fa-arrow-right',
     'fields' => array(
-        array(
-          'id' => 'cta_switch',
-          'type' => 'switcher',
-          'title'   => __( 'Show CTA?', 'medicaid' ),
-          'default' => true,
-        ),
-        array(
-          'id'      => 'cta_title',
-          'title'   => __( 'CTA Title', 'medicaid' ),
-          'type'    => 'text',
-          'default' => __( 'Best Solution For Your Business', 'medicaid' ),
-          'dependency' => array( 'cta_switch', '==', 'true' ),
-        ),
-        array(
-          'id'      => 'cta_subtitle',
-          'title'   => __( 'CTA Subtitle', 'medicaid' ),
-          'type'    => 'textarea',
-          'default' => __( 'The Can Be Used On Larger Scale Projectss As Well As Small Scale Projectss', 'medicaid' ),
-          'dependency' => array( 'cta_switch', '==', 'true' ),
-        ),
-        array(
-          'id'      => 'cta_btn_text',
-          'title'   => __( 'CTA Button Text', 'medicaid' ),
-          'type'    => 'text',
-          'default' => __( 'Contact', 'medicaid' ),
-          'dependency' => array( 'cta_switch', '==', 'true' ),
-        ),
-        array(
-          'id'      => 'cta_btn_url',
-          'title'   => __( 'CTA Button URL', 'medicaid' ),
-          'type'    => 'text',
-          'default' => 'https://google.com',
-          'dependency' => array( 'cta_switch', '==', 'true' ),
-        ),
+      array(
+        'id'      => 'team_sec_subtitle',
+        'title'   => __( 'Subtitle', 'medicaid' ),
+        'type'    => 'text',
       ),
+      array(
+        'id'      => 'team_sec_title',
+        'title'   => __( 'Title', 'medicaid' ),
+        'type'    => 'text',
+      ),
+      
+    ),
 
   ) );
+
+
+    // Create testimonial title
+  CSF::createSection( $prefix, array(
+    'id'     => 'testimonial_options',
+    'title'  => __('Testimonial Options', 'medicaid'),
+    'icon'   => 'fas fa-address-card',
+  ) );
+
+    // team testimonial title
+  CSF::createSection( $prefix, array(
+    'parent' => 'testimonial_options',
+    'title'  => __('Testimonial Section Title' , 'medicaid'),
+    'icon'   => 'fas fa-arrow-right',
+    'fields' => array(
+      array(
+        'id'      => 'testimonial_sec_subtitle',
+        'title'   => __( 'Subtitle', 'medicaid' ),
+        'type'    => 'text',
+      ),
+      array(
+        'id'      => 'testimonial_sec_title',
+        'title'   => __( 'Title', 'medicaid' ),
+        'type'    => 'text',
+      ),
+
+      
+    ),
+
+  ) );
+
+
+  // Create news title
+  CSF::createSection( $prefix, array(
+    'id'     => 'blog_options',
+    'title'  => __('Blog Options', 'medicaid'),
+    'icon'   => 'fas fa-address-card',
+  ) );
+
+    // team news title
+  CSF::createSection( $prefix, array(
+    'parent' => 'blog_options',
+    'title'  => __('Blog Section Title' , 'medicaid'),
+    'icon'   => 'fas fa-arrow-right',
+    'fields' => array(
+      array(
+        'id'      => 'blog_sec_subtitle',
+        'title'   => __( 'Subtitle', 'medicaid' ),
+        'type'    => 'text',
+      ),
+      array(
+        'id'      => 'blog_sec_title',
+        'title'   => __( 'Title', 'medicaid' ),
+        'type'    => 'text',
+      ),
+      
+    ),
+
+  ) );
+
+
+
+  
+  // CTA options
+  // CSF::createSection( $prefix, array(
+  //   'id' => 'cta_options',
+  //   'title'  => __('CTA Options' , 'medicaid'),
+  //   'icon'   => 'fas fa-address-card',
+  //   'fields' => array(
+  //       array(
+  //         'id' => 'cta_switch',
+  //         'type' => 'switcher',
+  //         'title'   => __( 'Show CTA?', 'medicaid' ),
+  //         'default' => true,
+  //       ),
+  //       array(
+  //         'id'      => 'cta_title',
+  //         'title'   => __( 'CTA Title', 'medicaid' ),
+  //         'type'    => 'text',
+  //         'default' => __( 'Best Solution For Your Business', 'medicaid' ),
+  //         'dependency' => array( 'cta_switch', '==', 'true' ),
+  //       ),
+  //       array(
+  //         'id'      => 'cta_subtitle',
+  //         'title'   => __( 'CTA Subtitle', 'medicaid' ),
+  //         'type'    => 'textarea',
+  //         'default' => __( 'The Can Be Used On Larger Scale Projectss As Well As Small Scale Projectss', 'medicaid' ),
+  //         'dependency' => array( 'cta_switch', '==', 'true' ),
+  //       ),
+  //       array(
+  //         'id'      => 'cta_btn_text',
+  //         'title'   => __( 'CTA Button Text', 'medicaid' ),
+  //         'type'    => 'text',
+  //         'default' => __( 'Contact', 'medicaid' ),
+  //         'dependency' => array( 'cta_switch', '==', 'true' ),
+  //       ),
+  //       array(
+  //         'id'      => 'cta_btn_url',
+  //         'title'   => __( 'CTA Button URL', 'medicaid' ),
+  //         'type'    => 'text',
+  //         'default' => 'https://google.com',
+  //         'dependency' => array( 'cta_switch', '==', 'true' ),
+  //       ),
+  //     ),
+
+  // ) );
 
 
   // contact options
@@ -536,38 +547,38 @@ if( class_exists( 'CSF' ) ) {
   
 
   // footer options
-  // CSF::createSection( $prefix, array(
-  //   'id' => 'footer_options',
-  //   'title'  => __('Footer Options' , 'medicaid'),
-  //   'icon'   => 'fas fa-rocket',
-  //   'fields' => array(
-  //     array(
-  //       'id'      => 'footer_text',
-  //       'title'   => __( 'Copyright Text', 'medicaid' ),
-  //       'type'    => 'text',
-  //       'default' => __( '©All Rights Reserved 2020', 'medicaid' ),
-  //     ),
-  //     array(
-  //       'id'      => 'footer social',
-  //       'title'   => __( 'Footer Social', 'medicaid' ),
-  //       'type'    => 'group',
-  //       'button_title'  => __( 'Add New Link', 'medicaid' ),
-  //       'fields'  => array(
-  //         array(
-  //           'id'      => 'footer_social_icon',
-  //           'title'   => __( 'Footer Social Icons', 'medicaid' ),
-  //           'type'    => 'text',
-  //         ),
-  //         array(
-  //           'id'      => 'footer_social_url',
-  //           'title'   => __( 'Footer Social Url', 'medicaid' ),
-  //           'type'    => 'text',
-  //         ),
-  //       ),
-  //     ),
-  //   ),
+  CSF::createSection( $prefix, array(
+    'id' => 'footer_options',
+    'title'  => __('Footer Options' , 'medicaid'),
+    'icon'   => 'fas fa-rocket',
+    'fields' => array(
+      array(
+        'id'      => 'footer_text',
+        'title'   => __( 'Copyright Text', 'medicaid' ),
+        'type'    => 'text',
+        'default' => __( '©All Rights Reserved 2020', 'medicaid' ),
+      ),
+      array(
+        'id'      => 'footer link',
+        'title'   => __( 'Footer Link', 'medicaid' ),
+        'type'    => 'group',
+        'button_title'  => __( 'Add New Link', 'medicaid' ),
+        'fields'  => array(
+          array(
+            'id'      => 'footer_link_text',
+            'title'   => __( 'Footer Link Text', 'medicaid' ),
+            'type'    => 'text',
+          ),
+          array(
+            'id'      => 'footer_link_url',
+            'title'   => __( 'Footer Link Url', 'medicaid' ),
+            'type'    => 'text',
+          ),
+        ),
+      ),
+    ),
 
-  // ) );
+  ) );
 
 
 

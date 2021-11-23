@@ -86,41 +86,6 @@ get_header();
 
             <?php } ?>
 
-            <!-- <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-stethoscope"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>100+</h5>
-                        <span>Happy Patients</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-code-branch"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>50+</h5>
-                        <span>Total Branches</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-star-of-life"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>100%</h5>
-                        <span>Satisfaction</span>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </div>

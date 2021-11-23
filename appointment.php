@@ -288,7 +288,7 @@ get_header();
             </div>
             <div class="modal-body">
                 <div class="qrcode">
-                    <img src="img/qr-code.png" alt="qrcode">
+                    <img src="<?php echo get_template_directory_uri()?>/img/qr-code.png" alt="qrcode">
                 </div>
             </div>
             <div class="modal-footer qr-code-modal">
@@ -304,53 +304,28 @@ get_header();
 <div class="counter appointment-counter">
     <div class="container">
         <div class="row">
+            <?php
+                $config = get_option( 'medicaid_options' );
+                $counter_items = $config['counter_lists'];
+
+                foreach( $counter_items as $item ){
+            ?>
             <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
                 <div class="single-counter">
                     <div class="counter-icon">
-                        <i class="fas fa-user-md"></i>
+                        <i class="<?php echo esc_attr( $item['counter_icon'] )?>"></i>
                     </div>
                     <div class="counter-info">
-                        <h5>98+</h5>
-                        <span> Expert Doctors</span>
+                        <h5><?php echo esc_html( $item['counter_number'] )?></h5>
+                        <span> <?php echo esc_html( $item['counter_title'] )?></span>
                     </div>
+
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-stethoscope"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>100+</h5>
-                        <span>Happy Patients</span>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
 
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-code-branch"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>50+</h5>
-                        <span>Total Branches</span>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6 responsive-margin-bottom">
-                <div class="single-counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-star-of-life"></i>
-                    </div>
-                    <div class="counter-info">
-                        <h5>100%</h5>
-                        <span>Satisfaction</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

@@ -49,70 +49,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
@@ -124,70 +134,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
@@ -199,70 +219,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
@@ -273,70 +303,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
@@ -348,70 +388,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
@@ -422,70 +472,80 @@
                                  <li>
                                      <p>Medicine</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-1.png" alt="Medicine">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-1.png"
+                                             alt="Medicine">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Child Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-2.png" alt="child">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-2.png"
+                                             alt="child">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>ENT Specialist</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-3.png" alt="ent">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-3.png"
+                                             alt="ent">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Urology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-4.png" alt="urology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-4.png"
+                                             alt="urology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Cardiology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-5.webp" alt="cardilogy">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-5.webp"
+                                             alt="cardilogy">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Nephrology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-6.png" alt="nephrology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-6.png"
+                                             alt="nephrology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Pulmonary</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-7.png" alt="pulmonory">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-7.png"
+                                             alt="pulmonory">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Gynaecology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-8.png" alt="gynaecology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-8.png"
+                                             alt="gynaecology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Dental</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-9.png" alt="dental">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-9.png"
+                                             alt="dental">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>
                                  <li>
                                      <p>Neurology</p>
                                      <div class="schedule-icon">
-                                         <img src="./img/schedule-10.webp" alt="neurology">
+                                         <img src="<?php echo get_template_directory_uri()?>/img/schedule-10.webp"
+                                             alt="neurology">
                                      </div>
                                      <p>10:00 AM - 10:00 PM</p>
                                  </li>

@@ -7,24 +7,8 @@ get_header();
 
 
 <!-- hero -->
-<section class="banner-login">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="banner-search text-center">
-                    <h2>Log in</h2>
-                </div>
+<?php get_template_part( 'template-parts/breadcumb' )?>
 
-                <div class="breadcrumb-container">
-                    <span>
-                        <a href="index.html">Home</a>
-                    </span>|
-                    <span class="current"> Login</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!--user login -->
 <section class="vendor-signup user-login">
@@ -46,7 +30,7 @@ get_header();
                             </div>
                             <button type="submit" class="button"><span>Submit</span></button>
                         </div>
-                        <span class="user-login-cta">Don't have an account?<a href="register.html">Register
+                        <span class="user-login-cta">Don't have an account?<a href="javascript:vod(0)">Register
                                 Now!</a></span>
                     </form>
                 </div>
